@@ -31,15 +31,13 @@ h1{
     font-size: 2em;
 }
 
-h7{
-    color: white;
-}
 
-body{
+#cprimaria{
     background-color: #18191A;
 }
 
-.col-sm-4 {
+#csecundaria {
+
     background-color: rgb(80, 177, 233);
     padding-bottom: 100%;
 }
