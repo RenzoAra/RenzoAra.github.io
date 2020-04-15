@@ -1,3 +1,7 @@
+body{
+  background-color: #18191A;
+}
+
 .jumbotron{
     background-image: url(../images/dt.common.streams.StreamServer.jpg);
     background-color:rgb(80, 177, 233);
@@ -24,7 +28,7 @@
     text-align: center;
     border: 3px solid black;
     width: 700px;
-    height: 330px;
+    height: 295px;
 }
 
 h1{
@@ -33,12 +37,12 @@ h1{
 
 
 #cprimaria{
-    background-color: #18191A;
+    background-color: rgb(209, 38, 32);
 }
 
 #csecundaria {
 
-    background-color: rgb(80, 177, 233);
+    background-color: rgb(255, 255, 255);
     padding-bottom: 100%;
 }
 
