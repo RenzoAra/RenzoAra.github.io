@@ -4,7 +4,7 @@ body{
 
 .mx-auto{
     position: relative;
-    margin-top: -70px;
+    margin-top: -95px;
     border: solid rgb(43, 206, 84) 5px;
     border-radius: 100%;
 }
@@ -101,8 +101,7 @@ h1{
   top: 5px;
 }
 
-@media all and (max-width:320px){
-  .contenido{
-    font-size: 12px;
-  }
+.wall {
+  width: 100%;
+  height: 20rem;
 }
