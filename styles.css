@@ -76,7 +76,7 @@ h1{
     margin-left: 20px;
   }
   
-  .google {
+  .instagram {
     background: transparent;
     color: rgb(0, 0, 0);
     font-size: 40px;
@@ -94,10 +94,15 @@ h1{
   position: relative;
 }
 
-.contenedor .contenido{
+.contenedor .contenido {
   padding-left: 40px;
   position: absolute;
   color: white;
   top: 5px;
-  font-size: 3.5vw;
+}
+
+@media all and (max-width:320px){
+  .contenido{
+    font-size: 12px;
+  }
 }
