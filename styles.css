@@ -2,16 +2,9 @@ body{
   background-color: #18191A;
 }
 
-.jumbotron{
-    background-image: url(../images/dt.common.streams.StreamServer.jpg);
-    background-color:rgb(80, 177, 233);
-    background-size: cover;
-    width: 100%;
-    height: 396px;
-    color: rgb(255, 255, 255);
-}
 .mx-auto{
-    margin-top: -140px;
+    position: relative;
+    margin-top: -70px;
     border: solid rgb(43, 206, 84) 5px;
     border-radius: 100%;
 }
@@ -38,12 +31,12 @@ h1{
 
 #cprimaria{
     padding-bottom: 2em;
-    background-color: rgb(209, 38, 32);
+    background-color: rgba(0, 0, 0, 0.746);
 }
 
 #csecundaria {
 
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(28, 15, 97);
     padding-bottom: 100%;
 }
 
@@ -96,3 +89,15 @@ h1{
     font-size: 40px;
     margin-left: 20px;
   }
+
+.contenedor{
+  position: relative;
+}
+
+.contenedor .contenido{
+  padding-left: 40px;
+  position: absolute;
+  color: white;
+  top: 5px;
+  font-size: 3.5vw;
+}
